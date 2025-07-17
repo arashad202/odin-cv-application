@@ -4,3 +4,15 @@ input {
     @apply border border-gray-300;
 }
 
+section {
+    @apply mx-auto;
+}
+
+section > label,
+section > input {
+    @apply mb-2;
+}
+
+section > h2 {
+    @apply text-2xl font-bold;
+}

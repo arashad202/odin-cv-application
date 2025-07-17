@@ -1,6 +1,7 @@
 function GeneralInfo() {
     return (
-        <section className="generalInfo grid grid-cols-1 w-[50%]">
+        <section className="generalInfo grid grid-cols-1 w-full">
+            <h2>General Info</h2>
         <label for="name">Name</label>
         <input type="text" id="name" name="name" />
 
