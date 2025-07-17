@@ -1,18 +1,29 @@
 @import "tailwindcss";
 
-input {
-    @apply border border-gray-300;
+.App {
+  @apply max-w-2xl mx-auto font-sans p-4;
 }
 
-section {
-    @apply mx-auto;
+.section {
+  @apply border border-gray-300 rounded-lg p-4 my-4;
 }
 
-section > label,
-section > input {
-    @apply mb-2;
+input, textarea {
+  @apply block w-full p-2 mb-2 border border-gray-300 rounded;
 }
 
-section > h2 {
-    @apply text-2xl font-bold;
+button {
+  @apply mt-2 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700;
+}
+
+h1 {
+  @apply text-3xl font-bold mb-4;
+}
+
+h2 {
+  @apply text-xl font-semibold mb-2;
+}
+
+p {
+  @apply mb-1;
 }
